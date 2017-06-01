@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For Stewitter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Adafruit_BME280	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+readTemperature	KEYWORD2
+readPressure	KEYWORD2
+readAltitude	KEYWORD2
+readHumidity	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
