@@ -74,12 +74,15 @@ bool Adafruit_BME280::begin(uint8_t addr)
     delay(300);
 
     // if chip is still reading calibration, delay
-    while (isReadingCalibration())
-          delay(100);
+    while (isReadingCalibration()) {
+        delay(100);
+    }
 
     readCoefficients(); // read trimming parameters, see DS 4.2.2
 
     setSampling(); // use defaults
+    
+    delay(100);
 
     return true;
 }

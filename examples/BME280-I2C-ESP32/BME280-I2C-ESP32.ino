@@ -1,6 +1,5 @@
 #include <Wire.h>
 #include "Adafruit_BME280.h"
-#include "Adafruit_Sensor.h"
 
 #define I2C_SDA 32
 #define I2C_SCL 33
