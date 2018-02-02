@@ -202,10 +202,10 @@ class Adafruit_BME280 {
         int32_t   _sensorID;
         int32_t   t_fine;
 
-        uint8_t pinSCL;
-        uint8_t pinSDA;
-
         int8_t _cs, _mosi, _miso, _sck;
+
+        uint8_t pinSDA;
+        uint8_t pinSCL;
 
         bme280_calib_data _bme280_calib;
 
